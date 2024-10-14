@@ -6,10 +6,17 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
     <title>Snake</title>
 </head>
 <body>
     <div class="wrapper">
+        <div id="container">
+            <canvas id="game-field" width="600" height="600">
+                <p id="score">0</p>
+                <button id="restart-btn">Restart</button>
+            </canvas>
+        </div>
         <footer class="footer">
             <a class="footer_icon" href="https://github.com/dashakarelova">
                 <img class="github-icon" src="./assets/svg/github.svg" alt="GitHub Icon" width="30" height="30">
