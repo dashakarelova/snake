@@ -149,7 +149,7 @@ function gameFinish() {
     clearInterval(interval);
     ctx.fillStyle = 'red';
     ctx.font = '50px bold';
-    ctx.fillText('Game over :(', 200, 200);
+    ctx.fillText('Game over', 200, 200);
 }
 
 function gameStart(){
