@@ -5,6 +5,8 @@ const restartBtn = document.getElementById('restart-btn');
 
 const ctx = gameField.getContext('2d');
 
+const audio = new Audio("./assets/audio/assets_audio.mp3")
+
 
 const colorField = '#000';
 const colorSnake = '#FC7CE3';
@@ -86,6 +88,7 @@ function checkAte() {
     if(snakeHead.x === food.x && snakeHead.y === food.y) {
         placeFood();
         updateScore(score + 1);
+        audio.play();
         return true;
     }
     return false;
