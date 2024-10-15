@@ -18,6 +18,14 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    gap: 10px;
+}
+
+#container p {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 
 #game-field {
@@ -27,14 +35,16 @@ body {
     align-items: center;
 }
 
-#score {
-    font-size: 30px;
+#score,
+#high-score {
+    font-size: 25px;
 }
 
 #restart-btn {
-    font-size: 27px;
+    font-size: 25px;
     padding: 5px 10px;
-    border: 2px solid lime;
+    border: 2px solid black;
+    background-color: white;
     border-radius: 10px;
 }
 
